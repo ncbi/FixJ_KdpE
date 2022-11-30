@@ -5,6 +5,8 @@ please refer to http://www.iqtree.org/doc/Rootstrap for more info
 The output log file generated is analyzed to get rooting info
 and to plot FigS5
 
+Usage: python3.8 getvalues_CheckRooting.py
+
 """
 from pathlib import Path
 import re
@@ -17,6 +19,7 @@ sns.set( rc = { 'axes.labelsize' : 20 })
 sns.set_style(style='white')
 
 # set Path and folders, files
+# change these to your local paths before running them
 main_dir = Path("/Users/chakravartyd2/FixJ_KdpE/")
 data_dir = main_dir / "data"
 inputfile = data_dir / "root_test.iqtree"

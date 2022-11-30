@@ -2,10 +2,13 @@
 Get all the trees with pAU > 0.8
 save details in an output file
 
+Usage: python3.8 get_best_rootedTrees.py 
+
 """
 from pathlib import Path
 
 # set Path and folders, files
+# change these to your local directories before running them
 main_dir = Path("/Users/chakravartyd2/FixJ_KdpE/")
 data_dir = main_dir / "data"
 inputfile = data_dir / "root_test.csv"
